@@ -14,7 +14,6 @@ body{
     background-color: rgba(38, 114, 201, 0.253);
     border: none;
     border-radius: 15px;
-    min-height: 100vh;
 }
 
 .entry {
