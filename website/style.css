@@ -4,6 +4,7 @@ body{
     min-height: 100vh;
     background-color: rgb(218, 233, 224);
     text-align: center;
+    font-size: 18px;
 }
 
 
@@ -13,7 +14,7 @@ body{
     font-family: 'Noto Serif', serif;
     background-color: rgba(38, 114, 201, 0.253);
     border: none;
-    border-radius: 15px;
+    
 }
 
 .entry {
@@ -75,7 +76,8 @@ label {
 input {
     display: block;
     height: 40px;
-    width: 320px;
+    max-width: 500px;
+    margin: 0 auto;
     background: #22b2da;
     color: #f0d43a;
     font-size: 20px;
@@ -118,18 +120,12 @@ textarea {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     padding-top: 7px;
-    padding-left: 7px;
     margin-bottom: 25px;
 }
 
 #hold-main {
     padding: 5px;
     margin: 0 auto;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 } 
 
 /* Reset style for HTML element on active to have no border*/
