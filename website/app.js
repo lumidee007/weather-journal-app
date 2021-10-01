@@ -45,7 +45,7 @@ function performAction(e) {
 
 
 async function weatherCondition (zipCode){
-    const baseURL = "http://api.openweathermap.org/data/2.5/weather";
+    const baseURL = "https://api.openweathermap.org/data/2.5/weather";
     const query = `?zip=${zipCode}&appid=${apiKey}`;
 
     const res = await fetch(baseURL + query);
