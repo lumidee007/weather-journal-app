@@ -36,7 +36,6 @@ function addNewData(req, res) {
         projectData.country = data.country
 
     res.send(projectData)
-    console.log(projectData)
 }
 
 

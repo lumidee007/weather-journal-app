@@ -52,7 +52,7 @@ async function weatherCondition (zipCode){
 
     try {
         const data = await res.json();
-        console.log(data)
+        
         return data;
 
     } catch (err) {
@@ -73,7 +73,7 @@ const postData = async(url = '', data = {}) => {
 
     try {
         const updatedData = await res.json();
-        // console.log(updatedData);
+        
         return updatedData
     } catch (err) {
         console.log("error", err);
@@ -97,7 +97,7 @@ const updateUI = async() => {
         document.getElementById('name').innerHTML = name;
         document.getElementById('country').innerHTML = country;
 
-        console.log(allData);
+        
 
     } catch (error) {
         console.log("error", error);

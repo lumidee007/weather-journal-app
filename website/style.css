@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
-body {
+body{
     min-height: 100vh;
     background-color: rgb(218, 233, 224);
     text-align: center;
 }
+
 
 #app {
     max-width: 700px;
@@ -13,6 +14,7 @@ body {
     background-color: rgba(38, 114, 201, 0.253);
     border: none;
     border-radius: 15px;
+    min-height: 100vh;
 }
 
 .entry {
